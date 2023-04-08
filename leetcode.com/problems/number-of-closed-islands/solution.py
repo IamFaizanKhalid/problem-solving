@@ -6,20 +6,25 @@ class Solution:
 		visited = [[False for _ in range(cols)] for _ in range(rows)]
 		
 		def explore(r, c):
-			print(r,c)
 			if r<0 or r>=rows or c<0 or c>=cols:
 				return False
 			
 			if visited[r][c]:
 				return True
-
 			visited[r][c] = True
-			
+
 			if grid[r][c]==1:
 				return True
-			
-			return explore(r-1,c) and explore(r+1,c) and explore(r,c-1) and explore(r,c+1)
 
+			closed = True
+
+			closed &= explore(r,c-1)
+			closed &= explore(r+1,c)
+			closed &= explore(r,c+1)
+			closed &= explore(r-1,c)
+
+			return closed
+			
 
 		total = 0
 		for r in range(rows):
