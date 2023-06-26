@@ -2,9 +2,10 @@
 
 [Last Problem Solved](https://github.com/IamFaizanKhalid/problem-solving/commit/HEAD)
 
-## LeetCode
+## [LeetCode](https://leetcode.com/iamfaizankhalid/)
 
 ### 2023
+- [July Challenge](https://github.com/IamFaizanKhalid/problem-solving/commits/master?path=leetcode.com/problems&since=2023-07-01&until=2023-07-31)
 - [June Challenge](https://github.com/IamFaizanKhalid/problem-solving/commits/master?path=leetcode.com/problems&since=2023-06-01&until=2023-06-30)
 - [May Challenge](https://github.com/IamFaizanKhalid/problem-solving/commits/master?path=leetcode.com/problems&since=2023-05-01&until=2023-05-31)
 - [April Challenge](https://github.com/IamFaizanKhalid/problem-solving/commits/master?path=leetcode.com/problems&since=2023-04-01&until=2023-04-30)
